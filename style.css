@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    padding: 20px;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.about .container {
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 40px;
+}
+
+.services {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.services .container {
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.services p {
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+
+.service img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+#real{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#zdjecia {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.real1 {
+    width: 28vw;
+    height: 35vh;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
